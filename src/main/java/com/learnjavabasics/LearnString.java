@@ -8,7 +8,7 @@ public class LearnString {
           Two ways to create strings are Using string literals and Using the new keyword
         */
         String s = "sai";
-        String s1 = new String("sai");
+        String s1 = "sai";
 
         //== & equals
         System.out.println(s == s1);
@@ -39,13 +39,10 @@ public class LearnString {
         //tolowercase
         String s3 = "Sai Sarath";
         System.out.println(s3.toLowerCase());
-
-        //touppercase
-        String s4 = "Sai Surekha";
         System.out.println(s3.toUpperCase());
 
         //contains
-        System.out.println(s2.contains("surekha"));
+        System.out.println(s2.contains("sai"));
 
         //replace
         System.out.println(s2.replace("sai", "surekha"));
