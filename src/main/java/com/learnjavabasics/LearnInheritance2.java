@@ -13,7 +13,8 @@ public class LearnInheritance2 {
         LearnMethodOverriding1 lm1 = new LearnMethodOverriding1();
         lm1.sound();
 
-        LearnMethodOverriding lm2 = new LearnMethodOverriding1();
+        // Up Casting : Parent class refers to the object of Child class
+        LearnMethodOverriding lm2 = new LearnMethodOverriding1(); //up casting
         lm2.sound();
 
         LearnAbstraction la = new LearnAbstraction1();
