@@ -20,5 +20,7 @@ public class LearnInheritance2 {
         la.makeSound();
         la.breathe();
 
+        LearnSuper1 ls1 = new LearnSuper1();
+        ls1.display();
     }
 }
